@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Raycast.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2AD59B59-2C97-4A7F-880F-9E9F60C09DCA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Raycast.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RaycastEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{723A4A75-21F3-4101-A106-74FC2670BD11}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Raycast">
+			<UniqueIdentifier>{8880DD97-42AA-43C2-A175-F482972D5B1B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Raycast\BaseModule.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\BaseModule.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Raycast\Capbot.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\Capbot.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Raycast\CapbotMovementComponent.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\CapbotMovementComponent.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Raycast\FLagCompensateable.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\FLagCompensateable.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Raycast\Raycast.Build.cs">
+			<Filter>Source\Raycast</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Raycast\Raycast.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\Raycast.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Raycast\RaycastGameModeBase.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\RaycastGameModeBase.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Raycast\RaycastGameStateBase.cpp">
+			<Filter>Source\Raycast</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Raycast\RaycastGameStateBase.h">
+			<Filter>Source\Raycast</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
